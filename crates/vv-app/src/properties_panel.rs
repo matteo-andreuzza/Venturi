@@ -2764,3 +2764,7 @@ impl VenturiApp {
         (pending_effects, pending_playhead)
     }
 }
+
+#[cfg(test)]
+#[path = "tests/properties_panel.rs"]
+mod tests;
